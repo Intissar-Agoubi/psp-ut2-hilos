@@ -16,7 +16,7 @@ import kotlin.time.measureTime
  * Para probar otra taquilla, cambia solo la línea de `fabrica` (Reto B: ::TaquillaSegura).
  * NO MODIFIQUES NADA MÁS (ni tú ni la IA): un verificador que se ajusta al código no verifica nada.
  */
-val fabrica: (Int) -> Taquilla = ::TaquillaIA
+val fabrica: (Int) -> Taquilla = ::TaquillaSegura
 
 const val AFORO = 200
 const val CLIENTES = 16
