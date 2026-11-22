@@ -26,3 +26,4 @@ el alumno entienda y verifique el código, no solo que funcione.
 
 ## Reglas añadidas por el alumno
 <!-- Reto C, apartado a: añade aquí tu regla -->
+- Para esperar una entrada, usa wait() dentro de synchronized y SIEMPRE dentro de un while que vuelva a comprobar si hay un asiento libre. Nunca uses Thread.sleep, wait con tiempo (wait(ms)) ni bucles de espera activa. Cuando se libere un asiento, llama a notifyAll(). Si el hilo es interrumpido mientras espera, esperarEntrada devuelve null.
